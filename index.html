@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <div class="page-change">
+            <button id="Converter-page" class="active">Converter</button>
+            <button id="Сurrency-rate-page">Сurrency rate</button>
+        </div>
+        <div class="converter-container">
+            <div class="converter">
+                <h1>Converter</h1>
+                <input placeholder="Enter the text, for example, 15 usd in rub">
+                <button>Сonvert</button>
+                <span class="result"></span>
+            </div>
+        </div>
+        <div>
+            <div class="currencies-container">
+                <div class="base-currency">
+                    <span>Select the base currency</span>
+                    <select name="base_currency" id="currency">
+                    </select>
+                </div>
+                <div class="currency_rate">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
